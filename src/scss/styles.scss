@@ -1,0 +1,41 @@
+// 
+// Styles
+// 
+
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global.scss";
+
+// Components
+@import "./components/navbar.scss";
+@import "./components/buttons.scss";
+
+// Sections
+@import "./sections/masthead.scss";
+@import "./sections/about.scss";
+@import "./sections/projects.scss";
+@import "./sections/signup.scss";
+@import "./sections/contact.scss";
+@import "./sections/footer.scss";
+
+@font-face {
+    font-family: ITCAvantgarde;
+    src: url(../assets/fonts/ITC\ Avant\ Garde\ Gothic\ Bold.otf);
+}
+
+.mb-lg-6 {
+    margin-bottom: 10rem !important;
+}
+
+.wide-text {
+    width: 100vw;
+
+    h1 {
+        margin-left: 20vw !important;
+    }
+}
