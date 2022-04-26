@@ -24,9 +24,10 @@
         color: $black;
         font-weight: 700;
         padding: 0.9rem 0;
-    }
+    }    
 
     .navbar-nav {
+
         .nav-item {
             &:hover {
                 // color: fade($white, 80%);
@@ -39,6 +40,18 @@
                 // outline: none;
                 // background-color: transparent;
             }
+        }
+    }
+
+    @media screen and (max-width: 991.98px){
+        ul { 
+            line-height: 100px;
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            top: 72px;
+            left: 0;
+            background: white;
         }
     }
 
@@ -59,10 +72,6 @@
             padding: 2rem 1.5rem;
             color: $black;
 
-            &:hover {
-                color: fade-out($white, 0.25);
-            }
-
             &:active {
                 color: $white;
             }
@@ -76,7 +85,7 @@
             }
 
             .nav-link {
-                color: $black;
+                color: $black !important;
                 padding: 1.5rem 1.5rem 1.25rem;
                 border-bottom: 0.25rem solid transparent;
 
