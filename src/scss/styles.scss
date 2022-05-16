@@ -28,6 +28,11 @@
     src: url(../assets/fonts/ITC\ Avant\ Garde\ Gothic\ Bold.otf);
 }
 
+@font-face {
+    font-family: ITCAvantgarde-Light;
+    src: url(../assets/fonts/ITC\ Avant\ Garde\ Gothic\ Light.ttf);
+}
+
 .mb-lg-6 {
     margin-bottom: 10rem !important;
 }
@@ -37,7 +42,7 @@
 
     @media screen and (min-width: 992px) {
         h1 {
-            margin-left: 20vw !important;
+            margin-left: 22% !important;
         }  
     }
     

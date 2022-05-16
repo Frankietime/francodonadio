@@ -24,10 +24,15 @@
         color: $black;
         font-weight: 700;
         padding: 0.9rem 0;
+        font-size: 1.8rem;
+        padding: 15px !important;
+        letter-spacing: 0.02rem;
+        margin: 0 !important;
     }    
 
     .navbar-nav {
-
+        font-family: $font-family-buttons;
+        font-weight: 900;
         .nav-item {
             &:hover {
                 // color: fade($white, 80%);

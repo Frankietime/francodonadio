@@ -18,7 +18,7 @@
         font-family: $font-family-base;
         font-size: 1.5rem;
         line-height: 1.5rem;
-        letter-spacing: 0.8rem;
+        letter-spacing: 0.2rem;
         background-clip: text;
         line-height: 2rem;
     }
@@ -31,7 +31,7 @@
     @include media-breakpoint-up(md) {
         h1 {
             font-size: 4rem;
-            line-height: 4rem;
+            line-height: 5rem;
         }
     }
 
@@ -41,13 +41,17 @@
 
         h1 {
             font-size: 4rem;
-            line-height: 4rem;
-            letter-spacing: 0.8rem;
+            line-height: 5rem;
+            letter-spacing: 0.2rem;
         }
 
         h2 {
             max-width: 30rem;
             font-size: 1.25rem;
         }
+    }
+
+    .landing-text {
+        margin-top: 88px;
     }
 }
